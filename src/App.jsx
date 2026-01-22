@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import "./app.scss"
+import Dock from './components/Dock.jsx'
 
 
 function App() {
   
 
   return (
-   <main></main>
+   <main>
+    <Dock/>
+
+
+   </main>
   )
 }
 

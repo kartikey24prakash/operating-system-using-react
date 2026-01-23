@@ -4,7 +4,14 @@ import "./window.scss"
 
 const MacosWindow = ({children}) => {
   return (
-  <Rnd>
+  <Rnd
+  default={{
+    width:"45vw",
+    height:"30vw",
+    x:300,
+    y:100,
+  }}
+  >
 
 
     <div className="window">

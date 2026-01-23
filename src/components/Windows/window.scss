@@ -1,9 +1,9 @@
 .window{
-    height: 300px;
-    width: 400px;
+   
     background-color: black;
     border-radius:0.75rem ;
     overflow: hidden;
+    height: 100%;
 
     color: white;
     .nav{
@@ -38,6 +38,10 @@
                      background-color: rgb(75, 211, 75);}
         }
         
+    }
+    .main-content{
+        height: 100%;
+    
     }
     
 }

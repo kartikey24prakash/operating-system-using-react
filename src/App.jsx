@@ -4,6 +4,7 @@ import Dock from './components/Dock.jsx'
 import Nav from './components/Nav.jsx'
 import MacosWindow from './components/Windows/MacosWindow.jsx'
 import Github from './components/Windows/Github.jsx'
+import Note from './components/Windows/Note.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Nav/>
     <Dock/>
     <Github/>
+    <Note/>
    </main>
   )
 }

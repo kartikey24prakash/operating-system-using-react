@@ -21,7 +21,7 @@ const Gitcard=({data = { id:1,image:"",title:"",description:"",tags:[],repolink:
 
 const Github = () => {
   return (
-    <Macwindow>
+    <Macwindow >
         <div className="cards">
             {githubdata.map(project => {
                 return <Gitcard data={project}/>

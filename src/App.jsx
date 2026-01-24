@@ -6,6 +6,7 @@ import MacosWindow from './components/Windows/MacosWindow.jsx'
 import Github from './components/Windows/Github.jsx'
 import Note from './components/Windows/Note.jsx'
 import Resume from './components/Windows/Resume.jsx'
+import Spotify from './components/Windows/Spotify.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Github/>
     <Note/>
     <Resume/>
+    <Spotify/>
    </main>
   )
 }

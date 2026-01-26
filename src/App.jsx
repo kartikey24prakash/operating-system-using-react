@@ -7,6 +7,7 @@ import Github from './components/Windows/Github.jsx'
 import Note from './components/Windows/Note.jsx'
 import Resume from './components/Windows/Resume.jsx'
 import Spotify from './components/Windows/Spotify.jsx'
+import Clie from './components/Windows/Clie.jsx'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Note/>
     <Resume/>
     <Spotify/>
+    <Clie/>
    </main>
   )
 }

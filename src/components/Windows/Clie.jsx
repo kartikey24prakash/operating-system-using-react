@@ -2,7 +2,7 @@ import React from 'react'
 import MacosWindow from './MacosWindow'
 import Terminal from 'react-console-emulator'
 import "./cli.scss"
-const Clie = () => {
+const Clie = ({windowName, setWindowsState}) => {
   const commands = {
     echo: {
       description: 'Echo a passed string.',
@@ -39,7 +39,7 @@ Available commands:
 `;
 
   return (
-    <MacosWindow>
+    <MacosWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="cli-window">
         
         <Terminal
